@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Test from './Test';
 import reportWebVitals from './reportWebVitals';
+import Barcode from './Barcode';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Barcode />
   </React.StrictMode>,
   document.getElementById('root')
 );
